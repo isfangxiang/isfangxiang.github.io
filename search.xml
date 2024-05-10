@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Java基础</title>
+      <link href="/2024/05/10/Java%E5%9F%BA%E7%A1%80/"/>
+      <url>/2024/05/10/Java%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java语言有哪些特点？"><a href="#Java语言有哪些特点？" class="headerlink" title="Java语言有哪些特点？"></a>Java语言有哪些特点？</h2><ol><li><p>简单易学（语法简单，上手容易）；</p></li><li><p>面向对象（封装，继承，多态）；</p></li><li><p>平台无关性（ Java 虚拟机实现平台无关性）；</p></li><li><p>支持多线程（ C++ 语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而 Java 语言却提供了多线程支持）；</p></li><li><p>可靠性（具备异常处理和自动内存管理机制）；</p></li><li><p>安全性（Java 语言本身的设计就提供了多重安全防护机制如访问权限修饰符、限制程序直接访问操作系统资源）；</p></li><li><p>高效性（通过 Just In Time 编译器等技术的优化，Java 语言的运行效率还是非常不错的）；</p></li><li><p>支持网络编程并且很方便；</p></li><li><p>编译与解释并存。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 概念 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
