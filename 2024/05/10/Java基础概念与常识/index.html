@@ -393,14 +393,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    776
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    4 分
                 </div>
                 
 
@@ -451,14 +451,21 @@
 <li>除了 Java SE 和 Java EE，还有一个 Java ME（Java Platform，Micro Edition）。Java ME 是 Java 的微型版本，主要用于开发嵌入式消费电子设备的应用程序，例如手机、PDA、机顶盒、冰箱、空调等。Java ME 无需重点关注，知道有这个东西就好了，现在已经用不上了。</li>
 </ol>
 <h2 id="JDK、JRE、JVM"><a href="#JDK、JRE、JVM" class="headerlink" title="JDK、JRE、JVM"></a>JDK、JRE、JVM</h2><ol>
-<li><p>JDK（Java Development Kit），它是功能齐全的 Java SDK，是提供给开发者使用，能够创建和编译 Java 程序的开发套件。它包含了 JRE，同时还包含了编译 java 源码的编译器 javac 以及一些其他工具比如 javadoc（文档注释工具）、jdb（调试器）、jconsole（基于 JMX 的可视化监控⼯具）、javap（反编译工具）等等。</p>
+<li><p>JDK（Java Development Kit），它是功能齐全的 Java SDK，是提供给开发者使用，能够创建和编译 Java 程序的开发套件。它包含了 <strong>JRE</strong>，同时还包含了编译 java 源码的编译器<strong>javac</strong> 以及一些其他工具比如 javadoc（文档注释工具）、<strong>jdb</strong>（调试器）、jconsole（基于 JMX 的可视化监控⼯具）、javap（反编译工具）等等。</p>
 </li>
-<li><p>JRE（Java Runtime Environment） 是 Java 运行时环境。它是运行已编译 Java 程序所需的所有内容的集合，主要包括 Java 虚拟机（JVM）、Java 基础类库（Class Library）。</p>
+<li><p>JRE（Java Runtime Environment） 是 Java 运行时环境。它是运行已编译 Java 程序所需的所有内容的集合，主要包括<strong>Java 虚拟机</strong>（JVM）、Java <strong>基础类库</strong>（Class Library）。</p>
 </li>
 <li><p>JVM（Java Virtual Machine）是运行 Java 字节码的虚拟机。JVM 有针对不同系统的特定实现（Windows，Linux，macOS），目的是使用相同的字节码，它们都会给出相同的结果。字节码和不同系统的 JVM 实现是 Java 语言“一次编译，随处可以运行”的关键所在。</p>
 </li>
 </ol>
-<p><img src="/images/JDK%E3%80%81JRE%E3%80%81JVM.png"></p>
+<h2 id="什么是字节码？字节码的好处？"><a href="#什么是字节码？字节码的好处？" class="headerlink" title="什么是字节码？字节码的好处？"></a>什么是字节码？字节码的好处？</h2><p>在 Java 中，JVM 可以理解的代码就叫做字节码（即扩展名为 <code>.class</code> 的文件），它不面向任何特定的处理器，只面向虚拟机。Java 语言通过字节码的方式，在一定程度上解决了传统解释型语言执行效率低的问题，同时又保留了解释型语言可移植的特点。所以， Java 程序运行时相对来说还是高效的（不过，和 C、 C++，Rust，Go 等语言还是有一定差距的），而且，由于字节码并不针对一种特定的机器，因此，Java 程序无须重新编译便可在多种不同操作系统的计算机上运行。</p>
+<p><strong>Java 程序从源代码到运行的过程如下图所示</strong>：</p>
+<p><img src="/images/%E5%AD%97%E8%8A%82%E7%A0%81%E6%9C%BA%E5%99%A8%E7%A0%81.png"></p>
+<h2 id="为什么说Java语言”编译与解释并存“？"><a href="#为什么说Java语言”编译与解释并存“？" class="headerlink" title="为什么说Java语言”编译与解释并存“？"></a>为什么说Java语言”编译与解释并存“？</h2><p><strong>编译型</strong>：编译型语言open in new window 会通过编译器open in new window将源代码一次性翻译成可被该平台执行的机器码。一般情况下，编译语言的执行速度比较快，开发效率比较低。常见的编译性语言有 C、C++、Go、Rust 等等。</p>
+<p><strong>解释型</strong>：解释型语言open in new window会通过解释器open in new window一句一句的将代码解释（interpret）为机器代码后再执行。解释型语言开发效率比较快，执行速度比较慢。常见的解释性语言有 Python、JavaScript、PHP 等等。</p>
+<p><img src="/images/%E7%BC%96%E8%AF%91%E8%A7%A3%E9%87%8A.png"></p>
+<p><strong>为什么说 Java 语言“编译与解释并存”？</strong></p>
+<p>这是因为 Java 语言既具有编译型语言的特征，也具有解释型语言的特征。因为 Java 程序要经过先编译，后解释两个步骤，由 Java 编写的程序需要先经过编译步骤，生成字节码（<code>.class</code> 文件），这种字节码必须由 Java 解释器来解释执行。</p>
 
                 
             </div>
@@ -869,7 +876,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">776</span>
+                        class="white-color">1.3k</span>
             
             
             
